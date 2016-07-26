@@ -1,0 +1,305 @@
+.spacer {
+    margin-top: 10px;
+}
+
+.activity-complete h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* ----- OVERALL SETUP --------------- */
+
+.infographic {
+  display: block;
+  position: relative;
+  height: 600px;
+  width: 800px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.chart-items {
+  display: block;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  z-index: 200;
+  height: 200px;
+  width: 400px;
+  border: 0;
+}
+
+#imagemap-shim {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 700;
+  height: 200px;
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.item-thumbnail {
+  height: 140px;
+  width: 140px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #ccc;
+}
+
+.item-image {
+  display: block;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.progressbar-set {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 40px;
+  width: 800px;
+}
+
+.progressbar-set-initial,
+.progressbar-set-done {
+  margin: 0;
+  padding: 5px;
+  border: 2px solid #fff;
+  height: auto;
+  min-height: 20px;
+  width: 300px;
+  background-color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  left: 250px;
+  bottom: 10px;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding-box;
+          background-clip: padding-box;
+  z-index: 300;
+}
+
+.progressbar-set-initial {
+    background: #000 url('../img/icon-warning.png') 5px center no-repeat;
+}
+
+.progressbar-set-done {
+    background: #000 url('../img/icon-ok.png') 5px center no-repeat;
+}
+
+.progress-title {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  float: left;
+  width: 140px;
+  text-align: center;
+}
+
+.progress {
+  float: left;
+  padding-top: 2px;
+  width: 660px;
+}
+
+.progress {
+  border: 1px solid #ccc;
+}
+
+.closeoverlay {
+  cursor: pointer;
+}
+
+.icon-close {
+  margin: 2px 0 0 0;
+  padding: 0;
+  border: 0;
+  float: right;
+  cursor: pointer;
+  width: 27px;
+  height: 27px;
+  background: transparent url('../img/icon-close.png') 0 0 no-repeat;
+}
+
+.icon-close:hover {
+    background: transparent url('../img/icon-close-hover.png') 0 0 no-repeat;
+}
+
+
+/* ----- DRESSER ACTIVITY --------------- */
+
+.dresser .infographic {
+    height: 556px;
+    background: transparent url('../img/dresser_bg.jpg') 0 0 no-repeat;
+}
+
+.dresser .content-overlay {
+  height: 556px;
+}
+
+.dresser .chart-items {
+  top: 80px;
+  left: 19px;
+  height: 390px;
+  width: 705px;
+}
+
+.dresser #imagemap-shim {
+  height: 390px;
+  width: 705px;
+}
+
+#item-position-candies {
+  top: 177px;
+  left: 1px;
+  z-index: 300;
+  height: 127px;
+  width: 157px;
+}
+
+#item-position-familyphoto {
+  top: 49px;
+  left: 57px;
+  z-index: 290;
+  height: 185px;
+  width: 165px;
+}
+
+#item-position-gmonitor {
+  top: 282px;
+  left: 141px;
+  z-index: 280;
+  height: 94px;
+  width: 137px;
+}
+
+#item-position-dentures {
+  top: 72px;
+  left: 227px;
+  z-index: 270;
+  height: 190px;
+  width: 118px;
+}
+
+#item-position-appointment {
+  top: 1px;
+  left: 268px;
+  z-index: 260;
+  height: 94px;
+  width: 144px;
+}
+
+#item-position-pillbottles {
+  top: 121px;
+  left: 342px;
+  z-index: 250;
+  height: 169px;
+  width: 337px;
+}
+
+#item-position-weddingphoto {
+  top: 63px;
+  left: 571px;
+  z-index: 240;
+  height: 199px;
+  width: 135px;
+}
+
+#item-position-cream {
+  top: 294px;
+  left: 465px;
+  z-index: 230;
+  height: 83px;
+  width: 200px;
+}
+
+#item-position-medicard {
+  top: 304px;
+  left: 393px;
+  z-index: 220;
+  height: 98px;
+  width: 142px;
+}
+
+#thumbnail-candies {
+background: #ccc url('../img/dresser_candies_t.png') no-repeat center center;}
+
+#thumbnail-familyphoto {
+background: #ccc url('../img/dresser_familyphoto_t.png') no-repeat center center;}
+
+#thumbnail-gmonitor {
+background: #ccc url('../img/dresser_gmonitor_t.png') no-repeat center center;}
+
+#thumbnail-dentures {
+background: #ccc url('../img/dresser_dentures_t.png') no-repeat center center;}
+
+#thumbnail-appointment {
+background: #ccc url('../img/dresser_appointment_t.png') no-repeat center center;}
+
+#thumbnail-pillbottles {
+background: #ccc url('../img/dresser_pillbottles_t.png') no-repeat center center;}
+
+#thumbnail-weddingphoto {
+background: #ccc url('../img/dresser_weddingphoto_t.png') no-repeat center center;}
+
+#thumbnail-cream {
+background: #ccc url('../img/dresser_cream_t.png') no-repeat center center;}
+
+#thumbnail-medicard {
+background: #ccc url('../img/dresser_medicard_t.png') no-repeat center center;}
+
+.item-image-candies {background: url('../img/dresser_candies.png') no-repeat 0 0;}
+.item-image-candies-visited {background: url('../img/dresser_candies.png') no-repeat -314px 0;}
+.item-image-candies-hover {background: url('../img/dresser_candies.png') no-repeat -157px 0;}
+
+.item-image-familyphoto {background: url('../img/dresser_familyphoto.png') no-repeat 0 0;}
+.item-image-familyphoto-visited {background: url('../img/dresser_familyphoto.png') no-repeat -330px 0;}
+.item-image-familyphoto-hover {background: url('../img/dresser_familyphoto.png') no-repeat -165px 0;}
+
+.item-image-gmonitor {background: url('../img/dresser_gmonitor.png') no-repeat 0 0;}
+.item-image-gmonitor-visited {background: url('../img/dresser_gmonitor.png') no-repeat -275px 0;}
+.item-image-gmonitor-hover {background: url('../img/dresser_gmonitor.png') no-repeat -137px 0;}
+
+.item-image-dentures {background: url('../img/dresser_dentures.png') no-repeat 0 0;}
+.item-image-dentures-visited {background: url('../img/dresser_dentures.png') no-repeat -236px 0;}
+.item-image-dentures-hover {background: url('../img/dresser_dentures.png') no-repeat -118px 0;}
+
+.item-image-appointment {background: url('../img/dresser_appointment.png') no-repeat 0 0;}
+.item-image-appointment-visited {background: url('../img/dresser_appointment.png') no-repeat -287px 0;}
+.item-image-appointment-hover {background: url('../img/dresser_appointment.png') no-repeat -144px 0;}
+
+.item-image-pillbottles {background: url('../img/dresser_pillbottles.png') no-repeat 0 0;}
+.item-image-pillbottles-visited {background: url('../img/dresser_pillbottles.png') no-repeat -674px 0;}
+.item-image-pillbottles-hover {background: url('../img/dresser_pillbottles.png') no-repeat -337px 0;}
+
+.item-image-weddingphoto {background: url('../img/dresser_weddingphoto.png') no-repeat 0 0;}
+.item-image-weddingphoto-visited {background: url('../img/dresser_weddingphoto.png') no-repeat -271px 0;}
+.item-image-weddingphoto-hover {background: url('../img/dresser_weddingphoto.png') no-repeat -135px 0;}
+
+.item-image-cream {background: url('../img/dresser_cream.png') no-repeat 0 0;}
+.item-image-cream-visited {background: url('../img/dresser_cream.png') no-repeat -400px 0;}
+.item-image-cream-hover {background: url('../img/dresser_cream.png') no-repeat -200px 0;}
+
+.item-image-medicard {background: url('../img/dresser_medicard.png') no-repeat 0 0;}
+.item-image-medicard-visited {background: url('../img/dresser_medicard.png') no-repeat -274px 0;}
+.item-image-medicard-hover {background: url('../img/dresser_medicard.png') no-repeat -137px 0;}
