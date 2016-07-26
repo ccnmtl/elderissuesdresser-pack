@@ -126,35 +126,11 @@
   border: 1px solid #ccc;
 }
 
-.closeoverlay {
-  cursor: pointer;
-}
-
-.icon-close {
-  margin: 2px 0 0 0;
-  padding: 0;
-  border: 0;
-  float: right;
-  cursor: pointer;
-  width: 27px;
-  height: 27px;
-  background: transparent url('../img/icon-close.png') 0 0 no-repeat;
-}
-
-.icon-close:hover {
-    background: transparent url('../img/icon-close-hover.png') 0 0 no-repeat;
-}
-
-
 /* ----- DRESSER ACTIVITY --------------- */
 
 .dresser .infographic {
     height: 556px;
     background: transparent url('../img/dresser_bg.jpg') 0 0 no-repeat;
-}
-
-.dresser .content-overlay {
-  height: 556px;
 }
 
 .dresser .chart-items {
