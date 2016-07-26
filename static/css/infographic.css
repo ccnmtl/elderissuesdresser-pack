@@ -133,6 +133,10 @@
     background: transparent url('../img/dresser_bg.jpg') 0 0 no-repeat;
 }
 
+.dresser .content-overlay {
+    height: 556px;
+}
+
 .dresser .chart-items {
   top: 80px;
   left: 19px;
