@@ -1,0 +1,74 @@
+[
+{
+    "map_area_shape": "polygon",
+    "coordinates": "2,229,10,209,29,191,53,182,75,177,96,177,119,184,136,193,149,207,156,224,154,244,148,259,142,271,130,285,124,292,105,300,74,301,54,298,37,289,16,267,6,253",
+    "label": "candies",
+    "content": "<p>Xerostomia increases the risk for dental caries. Many older people who suffer from dry mouth also like to suck on sugary hard candies. This in turn results in an increased risk for dental and root caries.</p>",
+    "label_name": "A bowl of Werther\u2019s candies",
+    "id": 1
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "62,179,69,55,196,54,218,227,158,225,153,211,136,191,112,181,90,177",
+    "label": "familyphoto",
+    "content": "<p>The family or community become more and more important for the older adult as the need for support increases.  They may need help with the demands of everyday life because of a chronic illness or during a crisis.  The help provided to older adults is called <b>social support</b>. Family members provide four basic types of social support:</p>\r\n<ul>\r\n<li><b>Instrumental:</b> Housework, transportation, shopping and personal care.</li>\r\n<li><b>Emotional:</b> Confiding, comforting, reassuring, and listening to problems.</li>\r\n<li><b>Informational:</b> Advice in seeking medical treatment, referrals to agencies, sharing family news.</li>\r\n<li><b>Financial and Housing:</b> Help paying bills, sharing a home.</li>\r\n</ul>",
+    "label_name": "Photo in a frame of them and the nephew",
+    "id": 2
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "227,137,231,112,243,91,262,78,283,74,301,77,320,84,339,103,344,123,341,143,324,232,313,250,301,258,281,263,263,257,256,253,249,239",
+    "label": "dentures",
+    "content": "<p>Without the aid of dentures to chew many types of food, older patients may suffer mild to severe nutritional deficiencies. In addition, ill-fitting dentures can lead to mouth sores, difficulty speaking, eating and kissing.</p>",
+    "label_name": "Partial denture in a glass of water",
+    "id": 3
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "144,311,153,298,168,293,219,282,233,284,247,291,256,302,271,297,280,308,263,313,271,327,270,339,263,349,184,375,171,373,158,367,147,343,141,325",
+    "label": "gmonitor",
+    "content": "<p>Mrs. Smith has a glucose monitor but does not regularly check her blood sugar.  She was recently diagnosed with Type II diabetes and is being treated with oral medication. People with diabetes are at higher risk for periodontal disease. Poor blood glucose control makes periodontal disease more likely and more severe. Poorly managed periodontal disease increases the risk for elevated blood glucose.  Diabetes may also result in dry mouth, increasing the risk for dental and root caries.</p>",
+    "label_name": "Glucose monitor",
+    "id": 4
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "267,38,292,23,317,1,396,58,347,93,290,60",
+    "label": "appointment",
+    "content": "<p>More than a quarter of all Americans and two of three older Americans have multiple chronic conditions. Treatment for this populations accounts for 66% of the country\u2019s health care budget. For example, just 9.3% of adults with diabetes have only diabetes.</p>",
+    "label_name": "Medical appointment card reminder",
+    "id": 5
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "343,249,343,187,354,175,353,151,361,139,379,137,393,145,396,155,396,174,402,181,406,210,405,240,409,237,411,224,419,212,423,192,435,182,449,183,459,191,461,213,471,233,473,251,477,250,477,221,482,209,481,187,491,173,503,171,518,181,518,191,518,196,518,209,523,215,524,249,529,249,528,209,533,169,547,129,556,121,581,129,609,133,619,181,618,206,621,201,631,193,631,179,645,171,656,173,665,181,665,193,674,201,678,258,675,273,667,284,651,291,635,285,621,275,618,218,615,218,609,259,601,274,593,283,587,279,563,270,545,270,534,267,531,254,525,255,524,263,511,278,492,278,479,269,477,259,473,257,454,271,432,273,413,264,404,255,397,266,381,275,361,272,348,261",
+    "label": "pillbottles",
+    "content": "<p>These pill bottles include Lasix, Elavil, Tums, Metformin, and Aleve.</p>\r\n</p>More than 400 commonly used medications- most notably antihistamines, diuretics and antidepressants- can cause dry mouth. (CDC)</p>",
+    "label_name": "Collection of pill bottles",
+    "id": 6
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "587,129,589,99,595,85,606,75,627,65,647,64,669,69,685,76,693,104,693,127,693,157,698,186,703,206,701,228,694,245,683,252,677,255,677,227,673,201,665,192,663,182,656,173,645,171,633,175,631,180,629,192,623,199,619,203,619,176,614,145,610,133",
+    "label": "weddingphoto",
+    "content": "<p>The leading edge of the baby boomers reached age 65 in 2011, launching an unparalleled phenomenon in the U.S. Since January 1, 2011, and each and every day for the next twenty years, roughly 10,000 Americans will celebrate their 65th birthdays. In 2010 44 million Americans were older adults (1-in-7 Americans). This will increase to 72 million in 2030 and 89 million in 2050. An ever increasing portion of your practice will be devoted to care of older adults.</p>",
+    "label_name": "Their wedding photograph",
+    "id": 7
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "465,349,507,294,637,310,657,309,663,315,663,335,659,349,651,350,635,352,561,347,521,348",
+    "label": "cream",
+    "content": "<p>Arthritis can lead to joint pain in the hands, making it difficult for patients to hold a toothbrush or denture brush. Patients may need a modified tooth-brush or assistance with daily toothbrushing or denture care.</p>\r\n<p>Seniors who have trouble with manual dexterity from arthritis or another condition can use floss holders or interproximal cleaners, which are available at most drugstores and supermarkets. Toothbrush handles may be modified by wrapping a washcloth around the handle and securing it with an elastic band. This will make the handle thicker and easier to hold. Some companies also sell thicker-handled toothbrushes.</p>",
+    "label_name": "Arthritis cream",
+    "id": 8
+},
+{
+    "map_area_shape": "polygon",
+    "coordinates": "393,334,489,303,495,309,464,350,525,347,529,355,431,385",
+    "label": "medicard",
+    "content": "<p>Medicare Part A covers hospitalization, Part B covers medical care, and Part D covers prescriptions. Medicare does not include any dental benefits.</p>",
+    "label_name": "Medicare card",
+    "id": 9
+}
+]
