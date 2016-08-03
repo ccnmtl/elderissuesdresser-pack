@@ -1,3 +1,4 @@
+<div class="infographic hidden-print">
 <div class="modal fade" id="item-modal" tabindex="-1" role="dialog" aria-labelledby="Help">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -7,14 +8,14 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <div class="item-thumbnail"></div>
                     </div>
-                    <div class="col-md-9 item-content"></div>
+                    <div class="col-sm-9 item-content"></div>
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -60,3 +61,16 @@
         </div>
     </div>
 <% } %>
+</div>
+
+<div class="visible-print-block">
+    <% for (var i = 0; i < items.length; i++) { %>
+        <% var item = items[i]; %>
+        <div>
+        <%=item.label_name%><br />
+        <img src="./dresser_<%=item.label%>_t.png" /><br />
+        <%=item.content%>
+        </div>
+    <% } %>
+</div>
+

@@ -1,11 +1,3 @@
-.spacer {
-    margin-top: 10px;
-}
-
-.activity-complete h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
 /* ----- OVERALL SETUP --------------- */
 
@@ -127,6 +119,10 @@
 }
 
 /* ----- DRESSER ACTIVITY --------------- */
+
+.dresser {
+    margin-top: 10px;
+}
 
 .dresser .infographic {
     height: 556px;
