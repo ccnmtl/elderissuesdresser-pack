@@ -9,4 +9,3 @@ require('!file?name=[name].[ext]!../static/img/dresser_pillbottles_t.png');
 require('!file?name=[name].[ext]!../static/img/dresser_weddingphoto_t.png');
 require('!file?name=[name].[ext]!../static/img/dresser_cream_t.png');
 require('!file?name=[name].[ext]!../static/img/dresser_medicard_t.png');
-
