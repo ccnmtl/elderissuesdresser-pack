@@ -40,7 +40,6 @@ var InfographicView = Backbone.View.extend({
         var context = {
             'items': this.items.toTemplate(),
             'clicked': this.items.clicked(),
-            'shim': './shim.gif',
             'percentDone': this.progress()
         };
 

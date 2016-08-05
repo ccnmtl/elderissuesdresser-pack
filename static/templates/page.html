@@ -22,7 +22,7 @@
 </div>
 
 <div class="chart-items">
-    <img name="imagemap-shim" id="imagemap-shim" usemap="#imageMapArea" src="<%= shim %>" />
+    <img name="imagemap-shim" id="imagemap-shim" usemap="#imageMapArea" src="../img/shim.gif" />
     <% for (var i = 0; i < items.length; i++) { %>
         <% var item = items[i]; %>
         <div id="item-position-<%=item.label%>"
@@ -71,7 +71,7 @@
         <h4><%=item.label_name%></h4>
             <div class="row">
                 <div class="col-xs-3">
-                    <div class="item-thumbnail"><img src="./img/dresser_<%=item.label%>_t.png" /></div>
+                    <div class="item-thumbnail"><img src="./dresser_<%=item.label%>_t.png" /></div>
                 </div>
                 <div class="col-xs-9 item-content"><%=item.content%></div>
             </div>
