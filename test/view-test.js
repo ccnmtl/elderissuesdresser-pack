@@ -34,7 +34,7 @@ describe('InfographicApp', function() {
         assert.isDefined(elt);
         jQuery(elt).html('');
 
-        app = module.InfographicApp.initialize();
+        app = module.InfographicApp.initialize({'background': ''});
     });
 
     describe('InfographicView', function(done) {
