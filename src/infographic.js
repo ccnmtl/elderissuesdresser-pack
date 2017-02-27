@@ -37,7 +37,7 @@ var InfographicView = Backbone.View.extend({
         this.items = new models.ItemList(data);
 
         this.background = options.background;
-        
+
         for (var i = 0; i < this.items.length; i++) {
             this.items.at(i).bind('change', self.render);
         }
