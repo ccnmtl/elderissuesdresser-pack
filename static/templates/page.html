@@ -22,7 +22,7 @@
 </div>
 
 <div class="chart-items">
-    <img name="imagemap-shim" id="imagemap-shim" usemap="#imageMapArea" src="../img/shim.gif" />
+    <img name="imagemap-shim" id="imagemap-shim" usemap="#imageMapArea" src="<%= shim %>" />
     <% for (var i = 0; i < items.length; i++) { %>
         <% var item = items[i]; %>
         <div id="item-position-<%=item.label%>"
@@ -64,7 +64,7 @@
 </div>
 
 <div class="visible-print-block">
-    <div class="dresser-print"><img src="../img/dresser_print.jpg" /></div>
+    <div class="dresser-print"><img src="<%= background %>" /></div>
     <% for (var i = 0; i < items.length; i++) { %>
         <% var item = items[i]; %>
         <div class="dresser-item-print">

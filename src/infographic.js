@@ -36,6 +36,8 @@ var InfographicView = Backbone.View.extend({
         var data = require('../static/json/items.json');
         this.items = new models.ItemList(data);
 
+        this.background = options.background;
+
         for (var i = 0; i < this.items.length; i++) {
             this.items.at(i).bind('change', self.render);
         }
@@ -57,7 +59,9 @@ var InfographicView = Backbone.View.extend({
         var context = {
             'items': this.items.toTemplate(),
             'clicked': this.items.clicked(),
-            'percentDone': this.progress()
+            'percentDone': this.progress(),
+            'background': this.background,
+            'shim': 'shim.gif'
         };
 
         var markup = this.template(context);
@@ -113,7 +117,8 @@ var InfographicView = Backbone.View.extend({
 var InfographicApp = {
     initialize: function(options) {
         var infographicView = new InfographicView({
-            el: jQuery('.infographic-container')
+            el: jQuery('.infographic-container'),
+            background: options.background
         });
 
         jQuery('.interactive-container').show();

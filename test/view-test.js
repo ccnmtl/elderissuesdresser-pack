@@ -1,6 +1,6 @@
 /* global describe: true, before: true, it: true */
 
-require('!file?name=[name].[ext]!./view-test.html');
+require('!file-loader?name=[name].[ext]!./view-test.html');
 require('../src/static.js');
 
 var chai = require('chai');
@@ -34,7 +34,7 @@ describe('InfographicApp', function() {
         assert.isDefined(elt);
         jQuery(elt).html('');
 
-        app = module.InfographicApp.initialize();
+        app = module.InfographicApp.initialize({'background': ''});
     });
 
     describe('InfographicView', function(done) {
