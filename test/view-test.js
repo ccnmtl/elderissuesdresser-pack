@@ -27,14 +27,13 @@ function waitFor(testFx, doneFx, millis) {
 }
 
 describe('InfographicApp', function() {
-    var app;
 
     before(function() {
         var elt = jQuery('.infographic-container');
         assert.isDefined(elt);
         jQuery(elt).html('');
 
-        app = module.InfographicApp.initialize({'background': ''});
+        module.InfographicApp.initialize({'background': ''});
     });
 
     describe('InfographicView', function(done) {
