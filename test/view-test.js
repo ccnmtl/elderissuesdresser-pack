@@ -30,7 +30,7 @@ describe('InfographicApp', function() {
 
     before(function() {
         var elt = jQuery('.infographic-container');
-        assert.isDefined(elt);
+        assert.ok(elt);
         jQuery(elt).html('');
 
         module.InfographicApp.initialize({'background': ''});
