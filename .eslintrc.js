@@ -17,6 +17,10 @@ module.exports = {
         "ecmaVersion": 6,
         "sourceType": "module"
     },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
     "globals": {
         "_": true,
         "Backbone": true,
