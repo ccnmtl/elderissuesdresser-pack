@@ -1,6 +1,6 @@
 {
   "name": "elderissuesdresser-pack",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Interactive to help understand issues faced by older adults",
   "main": "src/index.js",
   "scripts": {
