@@ -1,5 +1,14 @@
 language: node_js
 node_js:
-  - "stable"
+  - stable
+before_install:
+  - npm install -g npm
+  - npm install -g greenkeeper-lockfile@1
+install: npm install
+before_script: greenkeeper-lockfile-update
 script:
   - make
+after_script: greenkeeper-lockfile-upload
+env:
+  global:
+    secure: KKUURJMUnNcpyD8cHe8IbDPBcuXwZlL4ZsjWSpGm3KxOCDa2mVG0Ga22qjx2zairJHL1zusM8wPd7f5Pw68SY6Ct+XhU0WnK+9Mvpdd/AjY99hDGlZIixZX1YU3SCzP5khaUtunDyrjoKmLucxShnafR1TRiL3/AC1pYofkA7L5ZQdzVJa/0MYbRYkR6pqGRsm3RG0cUSoY68CAvc9YGcv6cRIEOeVK3dPnRnkoVi0KD3wFnB5hM5JD5N/TF+KCxRz977NiNKsvYJE9yFiVijji9MPvI7GKCuJt37MKVLYbBGjB2gR5dBPP37bWI2FLgRqqKmBkRlTjqvTW467gHzAJWF0HwTvl1rAGIw6rjKxm0oNR4xqBOjAx5uiOLhAW2cCioFbBEgAhhAuixMndgBn54QYAZXEcYVN5W5l1A66W51nFdlQ84SVdwhTUSFVxt5CU0bNuKGwtRtR22qfjHjOCIx48MAVz1Zu2OYGJiuBht53fDM2BRcoDDke5RMEzLuke2TtV0cYEkZenZXwdf0mjuPOZc8ZyW94kd7ysUl8O+apeyJgCCyff/IaBpjBE93UxouAA4TuV3rYtRMr9pT74Llu7IlLLqUChbx+SqdQdy2F092ysOlQu+FzBTlMPFzxYTfVoAwnR35w2KNvYTcTI8VghEMk+mf7rUlN/25dU=
