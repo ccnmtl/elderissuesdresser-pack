@@ -8,7 +8,7 @@ var Item = Backbone.Model.extend({
         clicked: false
     },
     toTemplate: function() {
-        return _(this.attributes).clone();
+        return _.clone(this.attributes);
     }
 });
 
