@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/ccnmtl/elderissuesdresser-pack/workflows/build-and-test/badge.svg)](https://github.com/ccnmtl/elderissuesdresser-pack/actions)
+
 Elder Issues: Cluttered Dresser Exercise 
 ==========
 
