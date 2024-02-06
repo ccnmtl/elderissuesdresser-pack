@@ -49,7 +49,7 @@
     "webpack-dev-server": "^4.1.0"
   },
   "dependencies": {
-    "backbone": "1.5.0",
+    "backbone": "1.6.0",
     "bootstrap": "^3.3.7",
     "bootstrap-arrow-buttons": "^1.0.4",
     "jquery": "^3.1.1",
